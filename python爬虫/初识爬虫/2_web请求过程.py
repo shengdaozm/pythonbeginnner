@@ -3,8 +3,8 @@
 #               第一次请求得到html骨架
 #               第二次得到相关数据，进行数据的展示，页面的源代码没有数据
 #               要求熟练使用浏览器的抓包工具
-def test():
+def main():
     return None
 
 if __name__ == "__main__":
-    test()
+    main()

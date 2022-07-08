@@ -7,7 +7,7 @@ def speak(engine,audio):
     engine.runAndWait
     return None
 
-def op():
+def main():
     engine=pyttsx3.init('sapi5')
     voices=engine.getProperty('vocies')
     newVoiceRate=130
@@ -25,4 +25,4 @@ def op():
     return None
 
 if __name__=='__main__':
-    op()
+    main()

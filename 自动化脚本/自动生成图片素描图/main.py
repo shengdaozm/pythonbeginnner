@@ -1,7 +1,7 @@
 import cv2
 
 
-def op():
+def main():
     img = cv2.imread("elon.jpg")
     ## Image to Gray Image
     gray_image = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
@@ -19,4 +19,4 @@ def op():
 
 
 if __name__ == "__main__":
-    op()
+    main()

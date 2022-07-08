@@ -4,7 +4,7 @@
 from urllib.request import urlopen
 
 
-def test():
+def main():
     url = "http://www.baidu.com"
     resp = urlopen(url)
 
@@ -16,4 +16,4 @@ def test():
 
 
 if __name__ == "__main__":
-    test()
+    main()
