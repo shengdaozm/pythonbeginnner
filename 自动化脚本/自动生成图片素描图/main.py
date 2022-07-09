@@ -1,8 +1,7 @@
 import cv2
 
-
 def main():
-    img = cv2.imread("elon.jpg")
+    img = cv2.imread("2.jpg")
     ## Image to Gray Image
     gray_image = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
     ## Gray Image to Inverted Gray Image
